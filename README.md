@@ -99,9 +99,10 @@ module.exports = {
     mockPlugin({
       entry: "./mock/index.js",
       watchFiles: [], // watch file or dir change refresh mock
-      ignoreFiles: [], // ignore file or dir change
+      watchOptions: {}, //extension option from chokidar option 
+      ignore: /_test/ // ignore change, support function or regex 
       //   debug: true, // debug log
-      localEnabled: process.env.NODE_ENV === "development"
+      disable: false // default false
     })
   ]
 };
