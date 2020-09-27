@@ -1,6 +1,6 @@
 # vite-plugin-mockit
 
-A package for local mock data functionality
+local mock data functionality for vite 
 
 - Simple writing(koa.js style)
 - watch file change
