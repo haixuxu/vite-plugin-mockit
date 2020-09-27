@@ -1,0 +1,28 @@
+{
+  "name": "vite-plugin-mockit",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "keywords": [
+    "vite",
+    "cli",
+    "plugin",
+    "mock"
+  ],
+  "scripts": {
+    "lint": "eslint ./",
+    "test": "mocha  --check-leaks --bail --exit --reporter spec test/"
+  },
+  "repository": "https://github.com/xuxihai123/vite-plugin-mockit",
+  "dependencies": {
+    "chokidar": "^3.4.2",
+    "koa-mock-restful": "^1.0.4"
+  },
+  "devDependencies": {
+    "eslint": "^6.x",
+    "koa": "^2.13.0",
+    "koa-body": "^4.2.0",
+    "mocha": "5.2.0",
+    "supertest": "3.1.0"
+  }
+}
