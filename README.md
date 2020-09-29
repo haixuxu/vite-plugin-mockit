@@ -92,7 +92,7 @@ module.exports = {
 2. Add configuration options in vite.config.js for vite
 
 ```js
-const mockPlugin = require("./vite-plugin-mockit");
+const mockPlugin = require("vite-plugin-mockit");
 
 module.exports = {
   plugins: [
@@ -126,12 +126,24 @@ module.exports = {
 
 ### entry
 
-mock config entry，The default value is./mock/index.js. The file is compiled according to the project's Babel configuration
+mock config entry，The default value is./mock/index.js.
+
+### watchFiles
+
+ watch file or dir change refresh mock, include default entry and entry  file directory
+
+### watchOptions
+
+extension option from chokidar option
+
+### ignore
+
+ignore file change, support function or regex, It is used to prevent refresh 
 
 ### debug
 
 Whether to turn on local debugging information，The default value is false
 
-### localEnabled
+### disable
 
 The plugin will only work in a development environment , if you want to disable it, set disable to true, The default value is false
