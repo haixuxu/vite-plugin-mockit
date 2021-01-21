@@ -1,5 +1,7 @@
 # vite-plugin-mockit
 
+[![Build Status](https://travis-ci.org/xuxihai123/vite-plugin-mockit.svg?branch=master)](https://travis-ci.org/xuxihai123/vite-plugin-mockit)
+
 local mock data functionality for vite, support **vite 1.x** and **vite 2.x**
 
 - Simple writing(express.js style)
