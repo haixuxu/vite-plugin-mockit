@@ -1,6 +1,6 @@
 {
   "name": "vite-plugin-mockit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "lib/index.js",
   "license": "MIT",
   "keywords": [
@@ -25,6 +25,8 @@
   "devDependencies": {
     "connect": "^3.7.0",
     "eslint": "^6.x",
+    "koa": "^2.13.1",
+    "koa-body": "^4.2.0",
     "mocha": "5.2.0",
     "supertest": "3.1.0"
   }

@@ -31,6 +31,9 @@ res.send = function send(body) {
   if (!this.get('Content-Type')) {
     this.set('Content-Type', 'application/json');
   }
+  if (this.statusCode) {
+    this.statusCode = 200;
+  }
   // respond
   this.end(chunk, 'utf8');
   return this;
