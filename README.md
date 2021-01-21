@@ -1,6 +1,8 @@
 # vite-plugin-mockit
 
-![Node.js CI](https://github.com/xuxihai123/vite-plugin-mockit/workflows/Node.js%20CI/badge.svg)
+![Build Status](https://img.shields.io/github/workflow/status/xuxihai123/vite-plugin-mockit/test/master)
+![Npm Version](https://img.shields.io/npm/v/vite-plugin-mockit)
+![License](https://img.shields.io/npm/l/vite-plugin-mockit)
 
 local mock data functionality for vite, support **vite 1.x** and **vite 2.x**
 
